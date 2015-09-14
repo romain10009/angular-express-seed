@@ -1,6 +1,6 @@
 {
   "apps" : [{
-    "name"      : "API",
+    "name"      : "pm2test",
     "script"    : "app.js",
     "env": {
       "COMMON_VARIABLE": "true"
@@ -8,9 +8,6 @@
     "env_production" : {
       "NODE_ENV": "production"
     }
-  },{
-    "name"      : "WEB",
-    "script"    : "web.js"
   }],
   "deploy" : {
     "production" : {
