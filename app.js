@@ -20,6 +20,9 @@ var app = module.exports = express();
  * Configuration
  */
 console.log('starting as ',process.env);
+console.log('lolol ',process.env.PORT);
+console.log('lalal ',process.env.env);
+console.log('lulu ',process.env.NODE_APP_INSTANCE);
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
